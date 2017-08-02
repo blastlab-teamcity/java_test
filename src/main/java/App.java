@@ -4,6 +4,6 @@ public class App {
     }
 
     public String printHello() {
-        return "Hello Mars";
+        return "Hello Mars and Venus";
     }
 }
