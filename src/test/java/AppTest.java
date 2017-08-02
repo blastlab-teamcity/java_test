@@ -6,6 +6,6 @@ public class AppTest {
     @Test
     public void testPrintHello() throws Exception {
         String s = new App().printHello();
-        assertEquals("Hello Mars and Venus and Neptun", s);
+        assertEquals("Hello Mars and Venus and Neptun and Jupiter", s);
     }
 }
