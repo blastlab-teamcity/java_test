@@ -1,9 +1,15 @@
 public class App {
     public static void main(String[] args) {
-        System.out.println(new App().printHello());
+        App app = new App();
+        System.out.println(app.printHello());
+        System.out.println(app.printUntestedMethod());
     }
 
     public String printHello() {
         return "Hello World!!!";
+    }
+
+    public String printUntestedMethod() {
+        return "lorem";
     }
 }
