@@ -11,7 +11,8 @@ mvn clean package
 Output - inside new `target` directory:
 
 * `java-test-0.1.0.jar` - artefact, compiled app,
-* `surefire-reports` - unit test results.
+* `surefire-reports` - unit test results,
+* `jacoco.exec` - code coverage report.
 
 ## By Docker
 

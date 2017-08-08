@@ -1,9 +1,32 @@
 public class App {
-    public static void main(String[] args) {
-        System.out.println(new App().printHello());
-    }
 
-    public String printHello() {
-        return "Hello World!!!";
-    }
+	public static void main(String[] args) {
+		App app = new App();
+		System.out.println(app.printHello());
+		System.out.println(app.printUntestedMethod());
+
+		String a = (String) "qwe"; // redundant cast
+	}
+
+	public String printHello() {
+		return "Hello World!!!";
+	}
+
+	public String printUntestedMethod() {
+		return "lorem";
+	}
+
+	public void someMethod() {
+		int i;
+		for (i = 0; i < 10; i++) {
+			printHello();
+		}
+	}
+
+	public void someDuplicatedMethod() {
+		int i;
+		for (i = 0; i < 10; i++) {
+			printHello();
+		}
+	}
 }
