@@ -6,7 +6,7 @@
 
     <groupId>co.blastlab.test</groupId>
     <artifactId>java-test</artifactId>
-    <version>0.1.5</version>
+    <version>0.1.9</version>
 
     <dependencies>
         <dependency>
